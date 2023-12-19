@@ -1,0 +1,9 @@
+{
+	"name": "vikramdatafactory0001",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7bf06f61-cb9d-4ef8-8a28-0333161e4acc",
+		"tenantId": "122a814a-c875-4433-b534-be8a4b025615"
+	}
+}

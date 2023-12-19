@@ -1,0 +1,52 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "annual-balance-sheets-2007-2021-provisional.csv",
+				"fileSystem": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Period",
+				"type": "String"
+			},
+			{
+				"name": "Inst_sector",
+				"type": "String"
+			},
+			{
+				"name": "Inst_sector_code",
+				"type": "String"
+			},
+			{
+				"name": "Descriptor",
+				"type": "String"
+			},
+			{
+				"name": "SNA08TRANS",
+				"type": "String"
+			},
+			{
+				"name": "Asset_liability_code",
+				"type": "String"
+			},
+			{
+				"name": "Values",
+				"type": "String"
+			}
+		]
+	}
+}

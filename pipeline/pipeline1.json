@@ -18,12 +18,6 @@
 					"notebookPath": {
 						"value": "@pipeline().parameters.NBPath",
 						"type": "Expression"
-					},
-					"baseParameters": {
-						"PLName": {
-							"value": "@pipeline().Pipeline",
-							"type": "Expression"
-						}
 					}
 				},
 				"linkedServiceName": {

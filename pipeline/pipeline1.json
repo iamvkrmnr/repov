@@ -15,7 +15,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/virchigam20@gmail.com/Untitled Notebook 2024-01-03 19:08:28",
+					"notebookPath": {
+						"value": "@pipeline().parameters.NBPath",
+						"type": "Expression"
+					},
 					"baseParameters": {
 						"PLName": {
 							"value": "@pipeline().Pipeline",
@@ -29,6 +32,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"NBPath": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
